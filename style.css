@@ -1,0 +1,90 @@
+ 
+body{
+    font-family: sans-serif;
+    background: #f8f8f8;
+}
+
+.container{
+    max-width:1100px;
+    width:100%;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.watch{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+.content h1 {
+    font-size:220px;
+    font-weight:400;
+    line-height:0px;
+}
+
+.content p {
+    font-size: 32px;
+}
+
+.content span {
+font-size:32;
+}
+
+.buttons button {
+    padding:20px 50px;
+    border:none;
+    cursor:pointer;
+    font-size:32px;
+    border:1px solid black
+}
+
+.buy {
+    background: #000;
+    color: white;
+}
+
+.models-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.content-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-title h1{
+    line-height: 0;
+    font: size 60px;
+}
+.content-title p {
+    font-size:24px;
+    margin:0;
+}
+.model {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image2 {
+    background:rgb(212, 212, 208);
+    padding:110px 60px;
+}
+.model h4 {
+    font-size:32px;
+}
+.model p {
+    font-size:32px;
+    max-width:531px;
+    text-align:center;
+    margin: 0;
+}
+.ball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
